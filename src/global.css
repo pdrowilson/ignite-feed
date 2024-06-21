@@ -1,11 +1,18 @@
 :root {
+	--white: #fff;
+	--gray-100: #e1e1e6;
+	--gray-300: #c4c4cc;
+	--gray-400: #8d8d99;
+	--gray-600: #323238;
+	--gray-700: #29292e;
+	--gray-800: #202024;
+	--gray-900: #121214;
+
+	--green-500: #00875f;
+
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
-
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -19,16 +26,16 @@
 	box-sizing: border-box;
 }
 
-a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #535bf2;
+body {
+	background: var(--gray-900);
+	color: var(--gray-300);
 }
 
-h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+body,
+input,
+textarea,
+button {
+	font-family: 'Roboto, sans-serif';
+	font-weight: 400;
+	font-size: 1rem;
 }
